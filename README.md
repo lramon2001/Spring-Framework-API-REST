@@ -31,3 +31,6 @@ assim:
 ```java 
  http.authorizeRequests().anyRequest().permitAll();
 ```
+- Feito isso crie um cargo Gerente na rota cargos/cadastrar;
+- Cadastre uma pessoa na rota funcionarios/cadastrar com o cargo de gerente;
+- Pronto, agora desfaça as alterações de seguranças feitas no Webconfig.
