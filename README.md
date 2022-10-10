@@ -22,4 +22,4 @@ Basta clicar [aqui](https://github.com/treinaweb/treinaweb-spring-apis/releases/
 ```
 -  O projeto base utiliza-se de spring security, desta forma vamos comentar a parte do código que trata as requisições que são autorizadas
 
-<img src="LucasRamonSoftwareEngineerProfile.png">
+<img src="">
