@@ -39,5 +39,5 @@ assim:
 
 Na aula 2 foi abordado como fazer requisições do tipo get com injeçôes de dependências da camada de serviço, utilizando as notações de RestController e get Mapping. Inculise foram abordadas duas maneiras de fazer esta requisição
 
-- [Primeira maneira]();
+- [Primeira maneira](https://github.com/lramon2001/Spring-Framework-API-REST/blob/main/api/controle/cargoControleApi.java);
 - [Segunda maneira]().
