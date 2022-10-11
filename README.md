@@ -34,3 +34,10 @@ assim:
 - Feito isso crie um cargo Gerente na rota cargos/cadastrar;
 - Cadastre uma pessoa na rota funcionarios/cadastrar com o cargo de gerente;
 - Pronto, agora desfaça as alterações de seguranças feitas no Webconfig.
+
+## Aula 2
+
+Na aula 2 foi abordado como fazer requisições do tipo get com injeçôes de dependências da camada de serviço, utilizando as notações de RestController e get Mapping. Inculise foram abordadas duas maneiras de fazer esta requisição
+
+- [Primeira maneira]();
+- [Segunda maneira]().
