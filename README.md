@@ -63,4 +63,4 @@ Na aula 5 foi abordado como fazer a edição de uma entidade usando o padrão dt
 ## Aula 6
 Na aula 6 foi abordado como fazer um delete de uma entidade
 
-- [Deletar]();
+- [Deletar](https://github.com/lramon2001/Spring-Framework-API-REST/blob/main/api/controle/cargoControleApi_VI.java);
