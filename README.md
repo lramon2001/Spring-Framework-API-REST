@@ -52,4 +52,4 @@ Na aula 3 foi abordado como fazer a consulta de uma identidade pelo id
 
 Na aula 4 foi abordado como fazer um cadastro de uma entidade, que no nosso caso foi a entidade cargo. Utilizamos o padrão DTO com a resposta da requisição com o status 201 para fazer jus a boas práticas.
 
-- [Cadastro]()
+- [Cadastro](https://github.com/lramon2001/Spring-Framework-API-REST/blob/main/api/controle/cargoControleApi_IV.java)
