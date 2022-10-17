@@ -40,6 +40,7 @@ public class CargoControleApi {
   }
 
   @PostMapping
+  @ResponseStatus(code = HttpStatus.CREATED)
   public Cargo cadastrar(@RequestBody CargoDto cargo)
   {
     return this.cargoServico.cadastrar(cargo);
