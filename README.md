@@ -41,3 +41,9 @@ Na aula 2 foi abordado como fazer requisições do tipo get com injeçôes de de
 
 - [Primeira maneira](https://github.com/lramon2001/Spring-Framework-API-REST/blob/main/api/controle/cargoControleApi.java);
 - [Segunda maneira](https://github.com/lramon2001/Spring-Framework-API-REST/blob/main/api/controle/cargoControleApi_II.java).
+
+## Aula 3
+
+Na aula 3 foi abordado como fazer a consulta de uma identidade pelo id
+
+- [Busca por Id]();
