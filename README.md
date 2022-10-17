@@ -58,4 +58,4 @@ Na aula 4 foi abordado como fazer um cadastro de uma entidade, que no nosso caso
 Na aula 5 foi abordado como fazer a edição de uma entidade usando o padrão dto. Deixarei o link para um mapeador de entidade!
 
 - [Atualizar]();
-- [Mapeador]().
+- [Mapeador](https://github.com/lramon2001/Spring-Framework-API-REST/blob/main/api/mapeadores/CargoMapeador.java).
