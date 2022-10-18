@@ -64,3 +64,12 @@ Na aula 5 foi abordado como fazer a edição de uma entidade usando o padrão dt
 Na aula 6 foi abordado como fazer um delete de uma entidade
 
 - [Deletar](https://github.com/lramon2001/Spring-Framework-API-REST/blob/main/api/controle/cargoControleApi_VI.java);
+
+## Aula 7
+Na aula 7 foi abordado como adicionar o spring hateoas como dependência do projeto
+```xml
+  <dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-hateoas</artifactId>
+  </dependency>
+```
