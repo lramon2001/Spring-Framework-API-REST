@@ -73,4 +73,4 @@ Na aula 7 foi abordado como adicionar o spring hateoas como dependência do proj
   <artifactId>spring-boot-starter-hateoas</artifactId>
   </dependency>
 ```
-Além disso foi necessário herdar a classe do HATEOAS para a entidade, veja como clicando [aqui]().
+Além disso foi necessário herdar a classe do RepresentationModel para a entidade, veja como clicando [aqui](https://github.com/lramon2001/Spring-Framework-API-REST/blob/main/entidades/Entidade.java).
