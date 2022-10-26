@@ -112,3 +112,4 @@ public List<Cargo> buscarTodos()
    }
 
 ```
+ A implementação dos métodos está disponivel [aqui]();
