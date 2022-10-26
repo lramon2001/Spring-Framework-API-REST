@@ -74,3 +74,41 @@ Na aula 7 foi abordado como adicionar o spring hateoas como dependência do proj
   </dependency>
 ```
 Além disso foi necessário herdar a classe do RepresentationModel para a entidade, veja como clicando [aqui](https://github.com/lramon2001/Spring-Framework-API-REST/blob/main/entidades/Entidade.java).
+
+
+## Aula 8
+
+Na aula 8 foi ensinado e exemplificado como fazer a adição dos links usando a classe WEBMVCLinkBuilder do Hateoas do Spring.
+
+Exemplo da adição de links a reposta da requisição.
+
+```java
+public List<Cargo> buscarTodos()
+   {
+    List<Cargo> cargos = cargoServico.buscarTodos();
+
+    cargos.forEach(cargo-> {
+      Long id = cargo.getId();
+      Link selfLink = WebMvcLinkBuilder.
+      linkTo(WebMvcLinkBuilder.
+      methodOn(CargoControleApi.class).
+      buscaPorId(id)).
+      withSelfRel().withType("GET");
+    
+      Link editarLink = WebMvcLinkBuilder.
+      linkTo(WebMvcLinkBuilder.
+      methodOn(CargoControleApi.class).
+      atualizar(null, id)).
+      withSelfRel().
+      withType("PUT");
+      
+      Link excluirLink = WebMvcLinkBuilder.
+      linkTo(WebMvcLinkBuilder.methodOn(CargoControleApi.class).
+      excluirPorId(id)).withSelfRel().withType("NO CONTENT");
+      cargo.add(selfLink,editarLink);
+    });
+    
+    return cargos;
+   }
+
+```
