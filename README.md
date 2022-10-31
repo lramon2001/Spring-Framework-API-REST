@@ -113,3 +113,14 @@ public List<Cargo> buscarTodos()
 
 ```
  A implementação dos métodos está disponivel [aqui](https://github.com/lramon2001/Spring-Framework-API-REST/blob/main/api/controle/cargoControleApi_VII.java);
+ 
+ ## Aula 9
+ 
+ Na aula 9 foi ensinado como fazer a correta implementação do HATEOAS utilizando uma camada separada Assembler. Esta camada basicamente implementa 
+ a interface SimpleRepresentationModelAssembler que nos "obriga" a implementar os métodos addLinks. A Implementação dessa camada ficará disponível [aqui]().
+ 
+ Além disso, foi necessário anotar a camada com @Component para utilizá-lo como dependência na camada de controle com a anotação @autowired.
+ Feito isso, modifiquei os métodos da camada de controle para retornar os objetos utilizando o Assembler.
+ A nova implementação da camada de controle ficará disponível [aqui]().
+ 
+ 
