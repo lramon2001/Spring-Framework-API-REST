@@ -121,6 +121,6 @@ public List<Cargo> buscarTodos()
  
  Além disso, foi necessário anotar a camada com @Component para utilizá-lo como dependência na camada de controle com a anotação @autowired.
  Feito isso, modifiquei os métodos da camada de controle para retornar os objetos utilizando o Assembler.
- A nova implementação da camada de controle ficará disponível [aqui]().
+ A nova implementação da camada de controle ficará disponível [aqui](https://github.com/lramon2001/Spring-Framework-API-REST/edit/main/api/controle/cargoControleApi_VII.java).
  
  
