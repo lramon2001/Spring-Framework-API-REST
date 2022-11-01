@@ -133,4 +133,4 @@ A implementação da paginação está disponível [aqui](https://github.com/lra
 ## Aula 11
 
 Na aula 11 foi ensinado como modificar o application.propreties para a API receber os parametros de paginacao como o desenvolvedor preferir
-Arquivo disponível [aqui]()
+Arquivo disponível [aqui](https://github.com/lramon2001/Spring-Framework-API-REST/blob/main/application.properties)
