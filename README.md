@@ -128,3 +128,4 @@ public List<Cargo> buscarTodos()
  Na aula 10 foi ensinado como implementar o recurso de paginação utilizando o Pageaable do spring. Há uma forma rudimentar de implementar que é adicionando o objeto Pageable nos parâmetros do método na camada de serviço e fazendo a sobrecarga do método nas outras classes necessárias.
 No entanto, a melhor maneira é utilizando uma dependência na camada de serviço chamada PageResourceAssembler. É a melhor maneira pois ao receber a resposta de uma requisição paginada isso é informado ao cliente que executou a requisição
  
+A implementação da paginação está disponível [aqui](https://github.com/lramon2001/Spring-Framework-API-REST/blob/main/api/controle/cargoControleApi_VIII.java);
