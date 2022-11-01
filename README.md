@@ -123,4 +123,8 @@ public List<Cargo> buscarTodos()
  Feito isso, modifiquei os métodos da camada de controle para retornar os objetos utilizando o Assembler.
  A nova implementação da camada de controle ficará disponível [aqui](https://github.com/lramon2001/Spring-Framework-API-REST/edit/main/api/controle/cargoControleApi_VII.java).
  
+ ## Aula 10
+ 
+ Na aula 10 foi ensinado como implementar o recurso de paginação utilizando o Pageaable do spring. Há uma forma rudimentar de implementar que é adicionando o objeto Pageable nos parâmetros do método na camada de serviço e fazendo a sobrecarga do método nas outras classes necessárias.
+No entanto, a melhor maneira é utilizando uma dependência na camada de serviço chamada PageResourceAssembler. É a melhor maneira pois ao receber a resposta de uma requisição paginada isso é informado ao cliente que executou a requisição
  
