@@ -134,3 +134,34 @@ A implementação da paginação está disponível [aqui](https://github.com/lra
 
 Na aula 11 foi ensinado como modificar o application.propreties para a API receber os parametros de paginacao como o desenvolvedor preferir
 Arquivo disponível [aqui](https://github.com/lramon2001/Spring-Framework-API-REST/blob/main/application.properties)
+
+## Aula 12
+
+Na aula 12 foi explicado como adicionar o swagger como dependência do projeto para documentar a API.
+1 passo é a adicionar as dependências ao pom.xml
+
+```xml
+<properties>
+		<java.version>11</java.version>
+		<swagger.version>3.0.0</swagger.version>
+	</properties> 
+<dependencies>
+<dependency>
+		<groupId>io.springfox</groupId>
+		<artifactId>springfox-swagger2</artifactId>
+		<version>${swagger.version}</version>
+		</dependency>
+
+		<dependency>
+		<groupId>io.springfox</groupId>
+		<artifactId>springfox-swagger-ui</artifactId>
+		<version>${swagger.version}</version>
+		</dependency>
+
+		<dependency>
+		<groupId>io.springfox</groupId>
+		<artifactId>springfox-boot-starter</artifactId>
+		<version>${swagger.version}</version>
+		</dependency>
+  </dependencies>
+```
