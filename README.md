@@ -144,7 +144,7 @@ Na aula 12 foi explicado como adicionar o swagger como dependência do projeto p
 <properties>
 		<java.version>11</java.version>
 		<swagger.version>3.0.0</swagger.version>
-	</properties> 
+</properties> 
 <dependencies>
 <dependency>
 		<groupId>io.springfox</groupId>
