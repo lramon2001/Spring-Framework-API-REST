@@ -150,7 +150,7 @@ Na aula 12 foi explanado como tratar excecões exception handler para isso foi c
 
 ## Aula 13
 
-Na aula 12 foi explicado como adicionar o swagger como dependência do projeto para documentar a API.
+Na aula 13 foi explicado como adicionar o swagger como dependência do projeto para documentar a API.
 1 passo é a adicionar as dependências ao pom.xml
 
 ```xml
