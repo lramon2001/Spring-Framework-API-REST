@@ -180,4 +180,4 @@ Na aula 13 foi explicado como adicionar o swagger como dependência do projeto p
 ```
 ## Aula 14
 
-Na aula 14 foi exemplifacado como fazer a configuração do swagger. Confira [aqui]() como foi feita a configuração.
+Na aula 14 foi exemplifacado como fazer a configuração do swagger. Confira [aqui](https://github.com/lramon2001/Spring-Framework-API-REST/tree/main/config) como foi feita a configuração.
