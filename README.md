@@ -22,7 +22,16 @@ Basta clicar [aqui](https://github.com/treinaweb/treinaweb-spring-apis/releases/
 ```
 -  O projeto base utiliza-se de spring security, desta forma vamos comentar a parte do código que trata as requisições que são autorizadas
 
-<img src="https://github.com/lramon2001/Spring-Framework-API-REST/blob/main/images/spring_security.png">
+
+     ```java   
+     http.csrf().ignoringAntMatchers("/api/v1/**");
+        http.formLogin()
+            .loginPage("/login")
+            .defaultSuccessUrl("/clientes")
+            .permitAll();
+	    
+     ```
+	    
 
 E depois de comentar este trecho adicione a chamada do método autorizando qualquer requisição em qualquer rota disponivel
 
