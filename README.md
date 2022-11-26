@@ -146,7 +146,7 @@ Arquivo disponível [aqui](https://github.com/lramon2001/Spring-Framework-API-RE
 
 ## Aula 12
 
-Na aula 12 foi explanado como tratar excecões exception handler para isso foi criada uma classe que herda do ResponseEntityExceptionHandler com dois métodos sendo um anotado com @ExceptionHandler e outro com sendo a sobrecarga do método handleMethodArgumentNotValid. Confira a implementação clicando [aqui]().
+Na aula 12 foi explanado como tratar excecões exception handler para isso foi criada uma classe que herda do ResponseEntityExceptionHandler com dois métodos sendo um anotado com @ExceptionHandler e outro com sendo a sobrecarga do método handleMethodArgumentNotValid. Confira a implementação clicando [aqui](https://github.com/lramon2001/Spring-Framework-API-REST/tree/main/excecoes).
 
 ## Aula 13
 
